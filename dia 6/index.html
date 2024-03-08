@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NIKE</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-family:Impact, Haettenschweiler,'Arial Narrow Bold', 
+			sans-serif;
+        }
+        body{
+            background-color: rgb(20, 20, 20);
+            color:white;
+        }
+
+        header{
+            width:100%;
+            height:75px;
+            align-content: center;
+        }
+
+        #logotipo{
+            width:45%;
+            height:100%;
+            margin: 0 auto;
+            background-image: url("img.png");
+            background-size: cover;
+        }
+        
+        nav{
+            width: 100%;
+            height: 80%;
+            display:flex;
+            background-color: rgb(20, 20, 20);
+        }
+
+        #menu-itens{
+            width:60%;
+            height:100%;
+            margin:0 auto;
+            background-color: rgb(20, 20, 20);
+            color:white;
+        }
+
+        #menu-itens{
+            list-style:none;
+        }
+
+        #menu-itens ul li{
+            display:inline-block;
+            font-size: 35px;
+            padding:10px;
+            margin-top:-8px;
+            margin-left: 50px;
+            color:white;
+        }
+
+        #menu-itens ul li a{
+            text-decoration:none;
+        }
+
+        #menu-itens ul li:hover{
+            color: red;
+        }
+
+        #container{
+            width:100%;
+            height:100%;
+            display:flex;
+        }
+
+        article{
+            width:50%;
+            height: 100%;
+        } 
+
+		#img-produto{
+			width:80%;
+			height:50%;
+			margin:0 auto;		
+		}
+
+        section{
+            width:50%;
+            height: 100%;
+			padding:10px;
+			
+        } 
+
+		.itens{
+			width:90%;
+			height:100px;
+			margin:0 auto;
+			padding:10px;
+			display:flex;
+		}
+
+		.itens a{
+			text-decoration: none;
+			color: white;
+		}
+
+		.img-itens{
+			width:40%;
+			height:100px;
+	    }
+
+		
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logotipo">
+        </div>
+    </header>
+        <nav>
+            <div id="menu-itens">
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Sobre Nós</li></a>
+                <a href="#"><li>Produtos</li></a>
+                <a href="#"><li>Contato</li></a>
+            </ul>
+            </div>
+        </nav>
+
+        <div id="container">
+            <article>
+                <div id="img-produto">
+					<img src="op.webp" width="650" heigth="450">
+				</div>
+				<center><h2><b>Nike Air Max Plus</b></h2></center>
+				<p>O Nike TN, também conhecido como Nike Air Max Plus, é um modelo de tênis icônico lançado pela Nike em 1998.
+                Ele se destaca por sua tecnologia de amortecimento Air Max visível e por suas linhas agressivas e distintas.
+                O design inspirado em tubarões, com sua parte superior ondulada e distintas janelas de Air Max na entressola,
+                tornou-se popular entre os entusiastas de sneakers e é frequentemente associado à cultura urbana e ao estilo
+                streetwear. O TN tem sido objeto de várias colaborações e continua sendo um dos modelos mais reconhecíveis
+                da Nike.</p>
+            </article>
+
+            <section>
+                <div class="itens">
+					<div class="img-item"><img src="./op1.webp" width="150" heigth="100"></div>&nbsp;&nbsp; Nike Air Max Plus
+					<br>
+					<a href="#"><br>Clique aqui para visualizar</a>
+				</div>
+
+				<div class="itens">
+					<div class="img-item"><img src="./op2.jpg" width="150" heigth="100"></div>&nbsp;&nbsp; Nike Air Max Plus
+					<br>
+					<a href="#"><br>Clique aqui para visualizar</a>
+				</div>
+
+				<div class="itens">
+					<div class="img-item"><img src="./op3.jpeg" width="150" heigth="100"></div>&nbsp;&nbsp; Nike Air Max Plus
+					<br>
+					<a href="#"><br>Clique aqui para visualizar</a>
+				</div>
+
+				<div class="itens">
+					<div class="img-item"><img src="./op4.webp" width="150" heigth="100"></div>&nbsp;&nbsp; Nike Air Max Plus
+					<br>
+					<a href="#"><br>Clique aqui para visualizar</a>
+				</div>
+
+				<div class="itens">
+					<div class="img-item"><img src="./op5.webp" width="150" heigth="100"></div>&nbsp;&nbsp; Nike Air Max Plus
+					<br>
+					<a href="#"><br>Clique aqui para visualizar</a>
+				</div>
+            </section>
+        </div>
+</body>
+</html>
